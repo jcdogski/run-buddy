@@ -74,3 +74,12 @@ background-position: center;
   height: 600px;
 }
 /* Hero style end*/
+
+/* hero form style start*/
+.hero-form{
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
+} 
+/* hero form style end*/
