@@ -65,38 +65,41 @@ footer div {
 footer a {
   color: #024e76;
 }
-/* Hero style start */
-.hero {
+
+section {
   padding: 60px;
-  background-image: url("../images/hero-bg.jpg");
-background-size: cover;
-background-position: center;
+}
+
+/* Hero Style Start */
+.hero {
+  background-image: url('../images/hero-bg.jpg');
   height: 600px;
+  background-size: cover;
+  background-position: center;
   position: relative;
 }
-/* Hero style end*/
+/* Hero Style End */
 
-/* hero form style start*/
-.hero-form{
+.hero-form {
+  border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
   width: 500px;
   color: #024e76;
-  border: solid 3px #024e76;
   position: absolute;
-  bottom: 100px;
-  right: 100px;
-} 
-/* hero form style end*/
-.form-h3{
+  bottom: 120px;
+  right: 140px;
+}
+
+.hero-form h3 {
   font-size: 24px;
-  margin: 0px;
+  margin: 0;
 }
 .hero-form p {
   margin: 5px 0 15px 0;
 }
 
-.form-input{
+.form-input {
   border: 1px solid #024e76;
   display: block;
   padding: 7px 15px;
@@ -117,36 +120,24 @@ background-position: center;
   padding: 10px 20px;
   font-size: 16px;
 }
-.intro{
+
+.intro {
   text-align: center;
 }
 
-.intro p{
+.intro p {
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
 }
+
 .steps {
   text-align: center;
   background: #fce138;
 }
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
-  border-bottom: 3px solid;
-}
-.primary-border {
-  border-color: #fce138;
-}
 
-.secondary-border {
-  border-color: #39a6b2;
-}
 .steps div {
   margin-bottom: 80px;
 }
@@ -166,15 +157,32 @@ background-position: center;
   color: #39a6b2;
   font-size: 23px;
 }
+
 .steps span {
   font-size: 38px;
 }
-.trainers{
+
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+
+.trainers {
   text-align: center;
 }
-.trainer p{
-  float: right;
-}
+
 .trainer {
   width: 900px;
   margin: 0 auto 30px auto;
@@ -182,6 +190,7 @@ background-position: center;
   color: #fce138;
   overflow: auto;
 }
+
 .trainer img {
   width: 35%;
   float: left;
@@ -191,14 +200,6 @@ background-position: center;
   padding: 35px;
   float: left;
   width: 65%;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .trainer-bio h3 {
@@ -216,3 +217,54 @@ background-position: center;
   font-size: 17px;
   line-height: 1.3;
 }
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* REACH OUT STYLES START */
+.contact {
+  text-align: center;
+  background: #024e76;
+}
+
+.contact h2 {
+  color: #fce138;
+}
+
+.contact-info iframe {
+  width: 400px;
+  height: 400px;
+}
+
+.contact-info div {
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 30px 0 0 60px;
+  color: white;
+}
+
+.contact-info h3 {
+  color: #fce138;
+  font-size: 32px;
+}
+
+.contact-info p,
+.contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.contact-info a {
+  color: #fce138;
+}
+
+/* REACH OUT STYLES END */
